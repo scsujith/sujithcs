@@ -1,0 +1,40 @@
+html {
+    font-size: 16.5pt;
+  }
+  @media (max-width: 900px) {
+    html { font-size: 18px; }
+  }
+  @media (max-width: 400px) {
+    html { font-size: 16px; }
+  }
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/bg-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1,h2,h3{
+    font-family: 'Oswald', sans-serif;  
+}
+
+h4,h5{
+    font-family: 'Anton', sans-serif;
+}
+
+h2{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  span{
+    font-size: 1rem;
+    color: rgb(255,82,82);
+  }
+}
+p{
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
